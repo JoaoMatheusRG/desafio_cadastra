@@ -2,6 +2,10 @@
 
 Este projeto foi desenvolvido como parte de um desafio técnico proposto pela empresa **Cadastra** para a vaga de **Engenheiro de Dados**. O objetivo é implementar um pipeline ETL (Extract, Transform, Load) utilizando serviços do Google Cloud Platform (GCP) para coletar, transformar e armazenar dados meteorológicos e gerar queries para análises.
 
+## Diagrama da Arquitetura
+
+![Diagrama de fluxo](diagram.png)
+
 ## Arquitetura
 
 A arquitetura do projeto é composta pelos seguintes componentes:
@@ -53,10 +57,6 @@ A arquitetura do projeto é composta pelos seguintes componentes:
    - `secret_value`: Sua API Key do OpenWeatherMap.
    - `function_service_account_id`: ID da Service Account para a Cloud Function.
    - `scheduler_service_account_id`: ID da Service Account para o Cloud Scheduler.
-
-## Diagrama da Arquitetura
-
-![Diagrama de fluxo](diagram.png)
 
 ## Extração de Dados
 
