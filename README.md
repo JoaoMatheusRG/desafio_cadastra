@@ -1,8 +1,6 @@
 # Projeto de ETL com Google Cloud Platform
 
-Este projeto foi desenvolvido como parte de um desafio técnico proposto pela empresa **Cadastra** para a vaga de **Engenheiro de Dados**. O objetivo é implementar um pipeline ETL (Extract, Transform, Load) utilizando serviços do Google Cloud Platform (GCP) para coletar, transformar e armazenar dados meteorológicos, habilitando análises e insights operacionais.
-
-A escolha por **Cloud Functions** e **Cloud Scheduler** foi feita devido ao baixo volume de dados a serem extraídos e tratados, tornando essa a melhor opção por conta da simplicidade e do baixo custo de manutenção.
+Este projeto foi desenvolvido como parte de um desafio técnico proposto pela empresa **Cadastra** para a vaga de **Engenheiro de Dados**. O objetivo é implementar um pipeline ETL (Extract, Transform, Load) utilizando serviços do Google Cloud Platform (GCP) para coletar, transformar e armazenar dados meteorológicos e gerar queries para análises.
 
 ## Arquitetura
 
@@ -35,7 +33,7 @@ A arquitetura do projeto é composta pelos seguintes componentes:
 1. Clone o repositório:
 
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/JoaoMatheusRG/desafio_cadastra
    ```
 
 2. Configure as variáveis no arquivo `terraform.tfvars`:
@@ -58,7 +56,7 @@ A arquitetura do projeto é composta pelos seguintes componentes:
 
 ## Diagrama da Arquitetura
 
-O diagrama da arquitetura está disponível no arquivo `arquitetura.drawio`.
+![Diagrama de fluxo](diagram.png)
 
 ## Extração de Dados
 
